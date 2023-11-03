@@ -40,7 +40,7 @@ mysqli_close($conn)
             //comentario no PHP - uma linha é afetada  com mensagem de retorno, dizendo que foio realizado o cadastro
              
             if ($linhas == 1){
-                print "Cadastro realizado com sucesso !";
+              print "Cadastro realizado com sucesso !";
             }/*uma linha só n será afetada caso eu digite um email repetido. pois o banco está confg para unique*/
             else{
                 print "Cadastro NÃO efetuado.<br> Já existe um usuário com este e-mail!";
